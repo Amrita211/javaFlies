@@ -7,7 +7,7 @@ public class lexicographicallyNumber {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
-        for (int i = 1; i <=9; i++) {
+        for (int i = 1 ; i <=9; i++) {
             dfs(i,n);
         }
     }

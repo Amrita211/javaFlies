@@ -132,21 +132,21 @@ private void display(Node node, String indent){
 
         System.out.println();
         bin.display();
-
-        System.out.println("height of the tree");
-        System.out.println(bin.height());
-
-        System.out.println("element is present or not ??");
-        System.out.println(bin.checkNodePresence(3));
-
+//
+//        System.out.println("height of the tree");
+//        System.out.println(bin.height());
+//
+//        System.out.println("element is present or not ??");
+//        System.out.println(bin.checkNodePresence(3));
+//
         System.out.println("nodes at level at k :-");
         bin.atlevel(1);
-
-        System.out.println("diameter is :-");
-        System.out.println(bin.diameter());
-
-        System.out.println("morririrng :-");
-        bin.mirror();
-        bin.display();
+//
+//        System.out.println("diameter is :-");
+//        System.out.println(bin.diameter());
+//
+//        System.out.println("morririrng :-");
+//        bin.mirror();
+//        bin.display();
     }
 }
